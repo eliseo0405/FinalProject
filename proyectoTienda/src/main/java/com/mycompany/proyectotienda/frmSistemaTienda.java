@@ -77,7 +77,7 @@ public class frmSistemaTienda extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Sistema Tienda de Ropa");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Descuentos o Promociones"));
@@ -487,7 +487,6 @@ public class frmSistemaTienda extends javax.swing.JFrame {
                     }
                 }
             }
-            
         }
        
     }
