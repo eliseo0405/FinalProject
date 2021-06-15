@@ -127,12 +127,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="HOMBRE TALLA: S=C$10 M=C$10 L=C$12 XL=C$14 "/>
+            <Property name="text" type="java.lang.String" value="HOMBRE TALLA: S=10% M=10% L=12% XL=14% "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="MUJER TALLA: S=C$7 M=C$7 L=C$12 XL=C$14"/>
+            <Property name="text" type="java.lang.String" value="MUJER TALLA: S=7% M=7% L=12% XL=14%"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
@@ -142,12 +142,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
-            <Property name="text" type="java.lang.String" value="HOMBRE TALLA: S=C$7 M=C$7 L=C$10 XL=C$12"/>
+            <Property name="text" type="java.lang.String" value="HOMBRE TALLA: S=7% M=7% L=10% XL=12%"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
-            <Property name="text" type="java.lang.String" value="MUJER TALLA: S=C$5 M=C$5 L=C$7 XL=C$10"/>
+            <Property name="text" type="java.lang.String" value="MUJER TALLA: S=5% M=5% L=7% XL=10%"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -190,7 +190,7 @@
                                   <Component id="txtprenda" min="-2" pref="131" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="40" max="32767" attributes="0"/>
+                          <EmptySpace pref="48" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="txtcantidad" min="-2" pref="63" max="-2" attributes="0"/>
                               <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
@@ -362,6 +362,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Generar Compra"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btngenerarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnlimpiar">
           <Properties>
@@ -447,16 +450,25 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Limpiar Tabla"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnlimpiartablaActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnquitar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Quitar Compra"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnquitarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnnetopagar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Neto a Pagar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnnetopagarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel15">
           <Properties>
